@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8f8802d4.chunk.css",
+    "main.js": "/static/js/main.9e1f24a1.chunk.js",
+    "main.js.map": "/static/js/main.9e1f24a1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.917b58a9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.917b58a9.js.map",
+    "static/css/2.fea9e6c7.chunk.css": "/static/css/2.fea9e6c7.chunk.css",
+    "static/js/2.8936c39b.chunk.js": "/static/js/2.8936c39b.chunk.js",
+    "static/js/2.8936c39b.chunk.js.map": "/static/js/2.8936c39b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cd211bac1e86e22a234679d09c741c38.js": "/precache-manifest.cd211bac1e86e22a234679d09c741c38.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.fea9e6c7.chunk.css.map": "/static/css/2.fea9e6c7.chunk.css.map",
+    "static/css/main.8f8802d4.chunk.css.map": "/static/css/main.8f8802d4.chunk.css.map",
+    "static/js/2.8936c39b.chunk.js.LICENSE.txt": "/static/js/2.8936c39b.chunk.js.LICENSE.txt",
+    "static/media/Eliminar.svg": "/static/media/Eliminar.07bae5e1.svg",
+    "static/media/Guardar.svg": "/static/media/Guardar.0596ba9f.svg",
+    "static/media/acerca.svg": "/static/media/acerca.cf250ced.svg",
+    "static/media/ajustes.svg": "/static/media/ajustes.0422a19e.svg",
+    "static/media/archivo.svg": "/static/media/archivo.9a53cb97.svg",
+    "static/media/ayuda.svg": "/static/media/ayuda.f3665766.svg",
+    "static/media/close.svg": "/static/media/close.5860098f.svg",
+    "static/media/consulta_doc.svg": "/static/media/consulta_doc.88f882cd.svg",
+    "static/media/importar.svg": "/static/media/importar.0edb275b.svg",
+    "static/media/loader.svg": "/static/media/loader.c772d284.svg",
+    "static/media/login-logo.svg": "/static/media/login-logo.1cb7fdf1.svg",
+    "static/media/logo-ies-azul.svg": "/static/media/logo-ies-azul.5b923d38.svg",
+    "static/media/logo-ies.svg": "/static/media/logo-ies.48abafa8.svg",
+    "static/media/reporte.svg": "/static/media/reporte.127327a0.svg",
+    "static/media/tid-btn.svg": "/static/media/tid-btn.cfa7bf29.svg",
+    "static/media/tid.svg": "/static/media/tid.7a6ba179.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.917b58a9.js",
+    "static/css/2.fea9e6c7.chunk.css",
+    "static/js/2.8936c39b.chunk.js",
+    "static/css/main.8f8802d4.chunk.css",
+    "static/js/main.9e1f24a1.chunk.js"
+  ]
+}
