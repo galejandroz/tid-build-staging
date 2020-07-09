@@ -612,7 +612,8 @@ a.lk{text-decoration:underline}
   margin-left: -40px;
 }
 .txae{
-  /* position: relative;
+  position: relative;
+  /* 
   display: inline-block; */
 }
 .txa{
@@ -703,11 +704,53 @@ a.lk{text-decoration:underline}
 
 .im.dcursor, .ic.dcursor{ cursor: default}
 
-.code{counter-reset:listing;font-size: .82em;line-height: 1.4em;}
-code{counter-increment:listing;display: block;}
-.code code:before{content:counter(listing) " ";color:#FFF;background-color:#006;min-width:22px;display:inline-block;text-align:center;margin-right:3px}
-pre{text-shadow:none;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;margin:0;padding:0;background-color:#FFF}
-.tleng{background-color:#ccc;font-family:Verdana,Geneva,sans-serif;font-size:.75em;text-indent:5px;color:#006;border-bottom:#ccc solid 1px;margin:16px 0 0;padding:0;line-height:1.7em;}
+.code{counter-reset:listing;font-size: .82em;line-height: 1.4em;color:#FFF}
+code{counter-increment:listing;display: block;color:#FFF}
+.code code:before{content:counter(listing) " ";color:#424553;min-width:22px;display:inline-block;text-align:center;margin-right:3px}
+pre{text-shadow:none;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word;margin:0;padding: 7px 3px;;background-color:#1d1e22}
+
+.code span.codDef{
+  color:#fff;
+}
+.code span.codNum{
+  color:#d0782a
+}
+.code span.codStr{
+  color:#96b38a;
+}
+.code span.codAsd{
+  color:#809bbd;
+}
+.code span.codCom{
+  color:#717790;
+}
+.code span.codReg{
+  color:#ddca7e;
+}
+.code span.codMet{
+  color:#9a8297;
+}
+.code span.codRes{
+  color:#ddca7e;
+}
+.code span.codVar{
+  color:#809bbd;
+}
+.code span{
+  color:#fff;
+}
+
+.tleng{background-color: #000;
+  font-family: Verdana,Geneva,sans-serif;
+  font-size: .75em;
+  text-indent: 5px;
+  color: #aaaebc;
+  margin: 16px 0 0;
+  padding: 0;
+  line-height: 1.7em;
+  text-shadow: none;
+  padding: 5px;
+}
 .cita{
   border-left: 10px solid #ccc;
   color: #666;
@@ -794,7 +837,7 @@ span.right {
   text-align: right;
 }
 span.left {
-  float: left;
+  /* float: left; */
   text-align: left;
 }
 
