@@ -380,6 +380,11 @@ input:focus {
     margin:auto;
   }
 
+  .login form{
+    max-width: 600px;
+    margin: auto;
+  }
+
   .centrar{
     position:absolute;
     top:50%;
@@ -411,6 +416,11 @@ input:focus {
     position: absolute;
     left: 0;
     top:0;
+  }
+  .ajustesP{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
    /* end ajustes */ 
 
@@ -864,12 +874,7 @@ span.left {
   
 
  
-  .timen{
-    letter-spacing: 4px !important;
-    font-size: 12px !important;
-    padding-left: 21px !important;
-    color: #999 !important;
-  }
+
 
   
 
@@ -970,7 +975,10 @@ button, input[type="submit"], .btn{
   border-radius: 2px;
 }
 
-
+h4.h4HomeSub{
+  color: #3B9BDC;
+  padding: 0 15px;
+}
 
 /** home materias */
 .carreras h1 {
@@ -1585,7 +1593,7 @@ section.media.fscreen .ifrai {
   margin: 16px 0 8px;
 }
 
-.form-control-counter-container {
+.form-control-counter-container, .positionRelative {
   position: relative;
 }
 .input-sm, .form-group-sm .form-control, .input-group-sm>.form-control, .input-group-sm>.input-group-addon, .input-group-sm>.input-group-btn>.btn {
@@ -1766,6 +1774,7 @@ input:-moz-placeholder { text-align:left; }
   overflow: auto;
   padding: 20px;
   position: relative;
+  min-height: 70px;
 }
 .ProseMirror {
   word-wrap: break-word;
@@ -1820,6 +1829,9 @@ input:-moz-placeholder { text-align:left; }
 .popover--popover--click {
   min-height: 48px;
   padding-right: 48px;
+  position: absolute;
+  will-change: transform;
+  transform: translate3d(-104px, 17px, 0px);
 }
 .popover--popper-content {
   display: flex;
@@ -1851,6 +1863,7 @@ input:-moz-placeholder { text-align:left; }
 }
 .popover--arrow {
   position: absolute;
+  left: 103px;
 }
 .popover--arrow[data-placement*=bottom]::before {
   border-top: 12px solid transparent;
@@ -2152,7 +2165,9 @@ textarea.form-control {
 /** en panel preguntas */
 
 
-
+.absPos{
+  position: absolute;
+}
 
 .aumentarTxt .section{
   font-size: 18px;
@@ -2178,6 +2193,30 @@ textarea.form-control {
   font-size: 10px;
 }
 
+.mb15{
+  margin-bottom: 15px;;
+}
+.ml7{
+  margin-left: 7px;
+}
+.p15{
+  padding: 15px;;
+}
+.p0{
+  padding: 0;
+}
+.pl0{
+  padding-left: 0;
+}
+.pr0{
+  padding-right: 0;
+}
+.w100{
+  width: 100%;
+}
+.dispInFlex{
+  display: inline-flex;
+}
 /***** gremio colores */
 .gRojo, a.gRojo, p.gRojo {
   color: #D42A2A;
@@ -2188,6 +2227,8 @@ textarea.form-control {
 .gVerdeBg{
   background-color: #4CB684;
 }
+
+
 
 @media screen and (min-width: 960px) {
   .indice li:hover, #panelizq table tr:hover{
