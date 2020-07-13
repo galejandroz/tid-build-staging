@@ -2203,13 +2203,13 @@ textarea.form-control {
   padding: 15px;;
 }
 .p0{
-  padding: 0;
+  padding: 0 !important;
 }
 .pl0{
-  padding-left: 0;
+  padding-left: 0 !important;
 }
 .pr0{
-  padding-right: 0;
+  padding-right: 0 !important;
 }
 .w100{
   width: 100%;
