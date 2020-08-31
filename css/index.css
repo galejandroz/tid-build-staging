@@ -2336,3 +2336,25 @@ textarea.form-control {
   }
 }
 */
+
+header.conten {
+  background-color: #009ddd;
+  width: 100%;
+  position: fixed;
+  height: 52px;
+  top: 0;
+  z-index: 44;
+}
+header.conten h1 {
+  color: #fff;
+  font-weight: 400;
+  margin: 0;
+  height: 52px;
+  line-height: 52px;
+  font-size: 16px;
+  padding-right: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 68px;
+}
